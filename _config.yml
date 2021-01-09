@@ -14,17 +14,17 @@ author: Foiling Yacht Innovation
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Us: "about-us"
-  Boat One: "boat-one"
-  Updates: "updates"
-  Sponsors: "sponsors"
-  Contact: "contact"
+  About Us: about-us
+  Boat One: boat-one
+  Updates: updates
+  Sponsors: sponsors
+  Contact: contact
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/fyi-logo-circle.png"
+avatar: /assets/img/fyi-logo-circle.png
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -39,12 +39,11 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "foilingyachtinnovation@gmail.com"
+  email: foilingyachtinnovation@gmail.com
   facebook: foilingyachtinnovation
   instagram: foilingyachtinnovation
   github: Foiling-Yacht-Innovation
 #  linkedin: daattali
-#  youtube: c/daattali
 #  twitter: daattali
 #  patreon: DeanAttali
 #  reddit: yourname
