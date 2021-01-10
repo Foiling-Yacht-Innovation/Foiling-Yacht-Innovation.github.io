@@ -1,0 +1,49 @@
+---
+layout: page
+title: Our Sponsors
+---
+<style>
+    .sponsors-container {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .sponsor {
+        background-color: white;
+        border: {{ site.navbar-border-col}} solid 1px;
+        /* max-width: 300px;
+        width: auto; */
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .sponsor .img-container {
+        display: block;
+        height: 80px;
+    }
+
+    .sponsor .img-container img {
+        display: block;
+        margin: auto;
+        max-height: 80px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+</style>
+
+<p>A club like ours wouldn't exist without the generosity of sponsors, and we are incredible appreciative of all the support we receive.</p>
+
+<div class="sponsors-container">
+{% for sponsor in site.sponsors %}
+    <div class="sponsor">
+        <a href="{{ sponsor.website }}" class="img-container">
+            <img src="{{ sponsor.logo-img }}">
+        </a>
+        <p>{{ sponsor.content | markdownify }}</p>
+    </div>
+{% endfor %}
+</div>
+
+<p>Do you want to become a sponsor? Please get in touch with us at <a href="mailto:foilingyachtinnovation@gmail.com">foilingyachtinnovation@gmail.com</a></p>

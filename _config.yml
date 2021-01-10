@@ -33,6 +33,17 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
+# --- Collections --- #
+
+collections:
+  sponsors:
+    order:
+      - core-builders-composites.md
+      - the-university-of-auckland.md
+      - southern-spars.md
+      - adhesive-technologies-nz-ltd.md
+      - cst-marine.md
+      - doyle-sails.md
 
 # --- Footer social media links --- #
 
