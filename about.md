@@ -9,4 +9,4 @@ Foiling Yacht Innovation is a club founded in late 2018 by students from [The Un
 
 We have made significant progress towards our mission, finalising the design of [our first boat](/boat-one) in 2020 with the construction of our first hull and foils to commence in 2021.
 
-Want to get involved? We're always welcoming new members - please [get in touch](/contact-us)!
+Want to get involved? We're always welcoming new members - please [get in touch](/contact)!
